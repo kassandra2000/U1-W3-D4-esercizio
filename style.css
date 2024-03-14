@@ -13,11 +13,11 @@ body {
   flex-wrap: wrap;
   margin-top: 30px;
 }
-div.cell{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 900;
+div.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
 }
 .cell {
   border-radius: 50%;
@@ -28,6 +28,9 @@ div.cell{
   width: 50px;
   box-shadow: 1px 9px 6px rgb(113, 172, 211);
 }
+.cell:hover{
+    box-shadow: 1px 9px 6px rgb(197, 228, 248);
+}
 h1 {
   margin-top: 70px;
   text-align: center;
@@ -37,31 +40,36 @@ h1 {
   text-shadow: 1px 7px 16px rgb(8, 44, 59);
 }
 
-.red{
-    background-color: red;
-    color: white;
+.red {
+  background-color: red;
+  color: white;
 }
 
-button{
-    border: none;
-    color: white;
-    background-color: rgb(199, 57, 57);
-    padding: 20px;
-    border-radius: 50%;
-    font-weight: bold;
-    margin: 40px;
+button {
+  border: none;
+  color: white;
+  background-color: rgb(199, 57, 57);
+  padding: 20px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin: 40px;
 }
 
-.container2{
-    width: 452px;
-    height: 165px;
-    display: flex;
-    justify-content: initial;
-    align-items: center;
-    flex-wrap: wrap;
+button:hover {
+  box-shadow: 5px 10px 4px rgb(226, 243, 255);
+  background-color: rgb(204, 93, 2);
 }
-.cell2{
-    border-radius: 10px;
+
+.container2 {
+  width: 452px;
+  height: 165px;
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cell2 {
+  border-radius: 10px;
   display: inline-block;
   height: 50px;
   background-color: rgb(208, 255, 239);
@@ -69,21 +77,38 @@ button{
   width: 50px;
   box-shadow: 1px 9px 6px rgb(113, 172, 211);
 }
-div.cell2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 900;
+div.cell2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
 }
 
-div.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+div.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
-div.cell2.red{
-    background-color: red;
+div.cell2.red {
+  background-color: red;
+}
+
+.img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 1px 3px 20px rgb(20, 150, 182);
+}
+
+img:hover {
+  box-shadow: 1px 3px 20px rgb(204, 229, 235);
 }
