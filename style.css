@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(98, 211, 245);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 600px;
+  height: 470px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+div.cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.cell {
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  background-color: rgb(208, 255, 239);
+  margin: 2px;
+  width: 50px;
+  box-shadow: 1px 9px 6px rgb(113, 172, 211);
+}
+h1 {
+  margin-top: 70px;
+  text-align: center;
+  display: block;
+  color: rgb(229, 246, 250);
+  font-size: 3em;
+  text-shadow: 1px 7px 16px rgb(8, 44, 59);
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color: rgb(199, 57, 57);
+    padding: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin: 40px;
+}
+
+.container2{
+    width: 452px;
+    height: 165px;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cell2{
+    border-radius: 10px;
+  display: inline-block;
+  height: 50px;
+  background-color: rgb(208, 255, 239);
+  margin: 1px;
+  width: 50px;
+  box-shadow: 1px 9px 6px rgb(113, 172, 211);
+}
+div.cell2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+div.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+div.cell2.red{
+    background-color: red;
+}
